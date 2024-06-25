@@ -1,0 +1,12 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\fedi]
+@="URL:LittleBit Fediverse Handler"
+"URL Protocol"=""
+[HKEY_CLASSES_ROOT\fedi\shell]
+[HKEY_CLASSES_ROOT\fedi\shell\open]
+[HKEY_CLASSES_ROOT\fedi\shell\open\command]
+@="\"C:\\Users\\<YOUR USERNAME>\\AppData\\Local\\Programs\\Python\\Python310\\python.exe\" \"C:\\Users\\<YOUR USERNAME>\\.littlebitstudios\\FediNameOpener.py\" \"%1\""
+
+; Replace <YOUR USERNAME> with your username.
+; Your username is usually the first 5 letters of your email address if you set up the PC using a Microsoft Account.
